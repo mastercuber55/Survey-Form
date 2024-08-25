@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+<p id="description">We would really appriciate it if you were to fill out this survey form to help us make our game even more perfect than perfect.!!</p>
+<br>
+
+<form id="survey-form">
+  <fieldset>
+    <legend>Your Information</legend>
+    <label id="name-label">Your Name</label>
+  <input id="name" type="text" required placeholder="Cube Nerd">
+  <label id="email-label">Your Email</label>
+  <input id="email" type="email" required okaceholder="mastercuber55@gmail.com">
+   <label id="number-label">Your Number</label>
+  <input id="number" type="number" min="1000000000" max="9999999999" placeholder="3456789432">
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Your Review</legend>
+    <p><strong>Did you enjoy this game?</strong></p>
+  <input type="radio" value="yes" name="agree">Yes
+  <input type="radio" value="no" name="agree">No
+    <br>
+    <br>
+    <strong>Would you recommend this game?</strong>
+    <select id="dropdown">
+    <option>[Select An Option]</option>
+    <option>Yes</option>
+    <option>Yes</option>
+  </select>
+
+  <br>
+  <strong>
+    Are you attracted to your gender?
+  </strong>
+  <br>
+  <input type="checkbox" value="1">Yeah
+  <input type="checkbox" value="2">How do you know?
+  <br>
+  <br>
+  <label><strong>Detailed review</strong></label>
+  <textarea placeholder="I found this product extremely... and I'd like this added..."></textarea>
+  </fieldset>
+
+  <br>
+  <button id="submit" type="submit">Submit your review.</button>
+
+</form>
+  </body>
+</html>
